@@ -122,7 +122,7 @@
 <h2 id="build-hierarchy">Build hierarchy<a class="anchor" aria-label="anchor" href="#build-hierarchy"></a>
 </h2>
 <p>Some output types depend on intermediate outputs. Here is a diagram of the build hierarchy:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>Rmd</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>Rmd <span class="op">/</span><span class="st"> </span>qmd</span>
 <span id="cb3-2"><a href="#cb3-2"></a> <span class="op">|</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="st"> </span><span class="er">|</span><span class="op">-</span>-&gt;<span class="st"> </span><span class="kw">social</span> (png)</span>
 <span id="cb3-4"><a href="#cb3-4"></a> <span class="op">|</span></span>
@@ -193,7 +193,7 @@
 <div class="section level3">
 <h3 id="build-pptx">Build PPTX<a class="anchor" aria-label="anchor" href="#build-pptx"></a>
 </h3>
-<p>Creates a pptx file where each slide contains a png image of each xaringan slide. While you won’t be able to edit the xaringan content from Powerpoint, you can at least annotate it.</p>
+<p>Creates a pptx file where each slide contains a png image of each slide. While you won’t be able to edit the content from Powerpoint, you can at least annotate it.</p>
 <p>(See the <a href="https://github.com/datalorax/slidex" class="external-link">slidex</a> package by @datalorax to do the opposite: pptx –&gt; xaringan!)</p>
 <p>Input can be a Rmd file, html file, pdf file, or url:</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
@@ -276,7 +276,7 @@
 </h2>
 <ul>
 <li>Authors: <a href="http://www.jhelvy.com/" class="external-link">John Paul Helveston</a> (<em>aut</em>, <em>cre</em>, <em>cph</em>) &amp; <a href="https://www.garrickadenbuie.com/" class="external-link">Garrick Aden-Buie</a> (<em>aut</em>)</li>
-<li>Date First Written: as xaringanBuilder on <em>September 27, 2020</em>
+<li>Date First Written: Originally as {xaringanBuilder} on <em>September 27, 2020</em>
 </li>
 <li>License: <a href="https://github.com/jhelvy/renderthis/blob/master/LICENSE.md" class="external-link">MIT</a>
 </li>
