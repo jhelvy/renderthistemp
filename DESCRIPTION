@@ -1,0 +1,50 @@
+Package: renderthis
+Title: Render Media To Different Outputs
+Version: 0.0.1
+Authors@R:
+    c(person(given = "John",
+             family = "Helveston",
+             role = c("aut", "cre", "cph"),
+             email = "john.helveston@gmail.com",
+             comment = c(ORCID = "0000-0002-2657-9191")),
+      person(given = "Garrick",
+             family = "Aden-Buie",
+             role = "aut",
+             email = "garrick@adenbuie.com",
+             comment = c(ORCID = "0000-0002-7111-0077")),
+      person(given = "Bryan",
+             family = "Shalloway",
+             role = "ctb"))
+Description: Functions for rendering media to different outputs, including
+    html, pdf, png, gif, pptx, and mp4, as well as a 'social' output, a png of
+    the first slide re-sized for sharing on social media.
+License: MIT + file LICENSE
+Depends: 
+    R (>= 3.4.0)
+Imports:
+    cli (>= 3.0.0),
+    digest,
+    fs,
+    jsonlite,
+    magick (>= 2.7.1),
+    pagedown,
+    progress,
+    rmarkdown,
+    withr,
+    xaringan,
+    zip
+Suggests:
+    av,
+    chromote (>= 0.0.0.9003),
+    officer,
+    pdftools,
+    testthat (>= 3.0.0),
+    webshot2,
+    xaringanExtra
+Remotes:
+    gadenbuie/xaringanExtra,
+    rstudio/chromote,
+    rstudio/webshot2
+Config/testthat/edition: 3
+Encoding: UTF-8
+RoxygenNote: 7.1.2

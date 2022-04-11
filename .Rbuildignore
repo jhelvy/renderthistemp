@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^docs$
+^pkgdown$
+^\.github$
+^README\.Rmd$
+^LICENSE\.md$
+^xaringanBuilder\.Rproj$
+build.R
+^\.travis\.yml$
+^CRAN-RELEASE$
+next_release.md
