@@ -3,7 +3,7 @@ pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
   renderthis-setup: renderthis-setup.html
-last_built: 2022-04-14T12:25Z
+last_built: 2022-04-14T12:33Z
 urls:
   reference: https://jhelvy.github.io/renderthis/reference
   article: https://jhelvy.github.io/renderthis/articles
